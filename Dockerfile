@@ -1,7 +1,7 @@
 FROM alpine
 
 ENV KUBE_LATEST_VERSION="v1.6.6"
-ENV HELM_LATEST_VERSION="v2.5.0"
+ENV HELM_LATEST_VERSION="v2.6.2"
 
 RUN apk add --update curl \ 
     && rm -rf /var/cache/apk/* \
